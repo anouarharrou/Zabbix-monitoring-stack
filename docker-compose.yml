@@ -9,8 +9,6 @@ services:
     zabbix_network:
       ipv4_address: 172.18.0.5
   volumes:
-   - /etc/localtime:/etc/localtime:ro
-   - /etc/timezone:/etc/timezone:ro 
    - ./usr/lib/zabbix/alertscripts:/usr/lib/zabbix/alertscripts:ro
    - ./usr/lib/zabbix/externalscripts:/usr/lib/zabbix/externalscripts:ro
    - ./var/lib/zabbix/export:/var/lib/zabbix/export:rw
