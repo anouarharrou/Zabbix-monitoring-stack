@@ -6,12 +6,22 @@
 
 This Docker Compose configuration sets up a comprehensive Zabbix monitoring stack along with a MySQL database, utilizing Alpine Linux for a lightweight and efficient deployment. It includes Zabbix server, web frontend with Nginx, Zabbix agent, SNMP traps, MySQL, and Grafana for visualization.
 
+## Author
+
+- **Author:** Anouar Harrou
+
+    Connect with me on LinkedIn: [Anouar Harrou](https://www.linkedin.com/in/anouarharrou/)
+
+
 ## Prerequisites
 
 Before you begin, make sure you have the following installed:
 
-- Docker 🐳
-- Docker Compose 🚢
+- 🐧 Ubuntu Server or CentOS 7.
+- 🐳 Docker 
+- 🚢 Docker Compose 
+- 🖥️ Docker Desktop for Windows Users 
+- 🌐 Internet connection for downloading Docker and Docker Compose.
 
 ## Installation Steps
 
@@ -41,6 +51,9 @@ Before you begin, make sure you have the following installed:
 - **Grafana:**
   - URL: [http://localhost:3000](http://localhost:3000)
   - Default Credentials: Admin / admin
+
+
+## Note⚠️: Zabbix front may take some time to setup just wait 🕜
 
 ## Configuration Details
 
