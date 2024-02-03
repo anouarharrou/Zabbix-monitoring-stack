@@ -17,12 +17,12 @@ Before you begin, make sure you have the following installed:
 
 1. **Clone Repository:**
   ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/anouarharrou/Zabbix-monitoring-stack.git
    ```
 
 2. **Navigate to Project Directory:**
  ```bash
-   cd your-repo
+   cd Zabbix-monitoring-stack
    ```
 
 3. **Run Docker Compose:**
