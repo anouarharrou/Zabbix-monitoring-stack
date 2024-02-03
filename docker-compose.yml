@@ -226,7 +226,7 @@ services:
   stop_grace_period: 10s
 
 volumes:
-  grafana_data:
+  grafana-data:
 
 networks:
   zabbix_network:
