@@ -1,3 +1,5 @@
+version: '3.7'
+
 networks:
   network-zabbix:
     driver: bridge
@@ -18,6 +20,7 @@ services:
       - MYSQL_DATABASE=db
       - MYSQL_USER=db
       - MYSQL_PASSWORD=devops
+    command: ["--init-file", "/docker-entrypoint-initdb.d/init.sql"]
 
   zabbix-server:
     container_name: zabbix-server
