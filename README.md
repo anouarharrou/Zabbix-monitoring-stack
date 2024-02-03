@@ -1,4 +1,4 @@
-# Project Title
+# Zabbix Monitoring Cluster
 
 🚀 **Zabbix Monitoring Stack** 🚀
 
